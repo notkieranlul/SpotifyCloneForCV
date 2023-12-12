@@ -17,7 +17,7 @@ body{
     padding: 24px;
 }
 .sidebar .logo img{
-    width: 130px;
+    width: 100px;
 }
 .sidebar .navigation ul{
     list-style: none;
@@ -33,7 +33,7 @@ body{
     color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
 }
 .sidebar .navigation ul li a:hover,
 .sidebar .navigation ul li a:active,
@@ -503,23 +503,6 @@ body{
     border-radius: 6px;
     margin-bottom: 10px;
 }
-.about .list .item .play{
-    position: relative;
-}
-.about .list .item .play .fa{
-    position: absolute;
-    right: 10px;
-    top: -60px;
-    padding: 18px;
-    background-color: #1bb954;
-    border-radius: 100%;
-    opacity: 0;
-    transition: all ease 0.4s;
-}
-.about .list .item:hover .play .fa{
-    opacity: 1;
-    transform: translateY(-20px);
-}
 .about .list .item h4{
     color: #ffffff;
     font-size: 14px;
@@ -534,10 +517,6 @@ body{
     line-height: 20px;
     font-weight: 600;
 }
-.about hr{
-    margin: 70px 0px 0px;
-    border-color: #636363;
-}
 
 
 
@@ -545,14 +524,10 @@ body{
 .pictures {
     padding: 20px 40px;
 }
-.pictures h2{
-    color: #ffffff;
-    font-size: 22px;
-    overflow: hidden;
-}
+
 .pictures .list{
     display: flex;
-    gap: 20px;
+    gap: 32px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -572,11 +547,4 @@ body{
     width: 100%;
     border-radius: 6px;
     margin-bottom: 10px;
-}
-.pictures .list .item .play{
-    position: relative;
-}
-.pictures .list .item:hover .play .fa{
-    opacity: 1;
-    transform: translateY(-20px);
 }
