@@ -56,7 +56,10 @@ body{
 }
 .sidebar .navigation-song{
     position: absolute;
-    bottom: 130px;
+    bottom: 110px;
+}
+.sidebar .navigation-song img{
+    max-width: 93%;
 }
 .sidebar .navigation-song ul li a{
     color: #b3b3b3;
